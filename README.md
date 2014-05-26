@@ -14,7 +14,7 @@ log.Error("error")
 log.Info("info")
 
 // Set log level to debug
-log.SetLogLevel(LogLevelDebug)
+log.SetLogLevel(log.LogLevelDebug)
 
 // Write to stdout as debug log
 log.Debug("debug")
